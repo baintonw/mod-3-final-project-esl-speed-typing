@@ -1,2 +1,0 @@
-class HarryPotter < ApplicationRecord
-end

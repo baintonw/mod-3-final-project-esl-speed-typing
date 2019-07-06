@@ -1,10 +1,8 @@
 Rails.application.routes.draw do
-  
-  get 'game_of_thrones/index'
-  get 'harry_potters/index'
-  get 'harry_potters/show'
-  get 'harry_potters/create'
-  get 'harry_potters/update'
+
+  get 'quotes/index'
+  get 'quotes/:show', to: 'quotes#show'
+
   resources :users
   resources :games
 
